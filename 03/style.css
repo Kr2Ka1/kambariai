@@ -1,0 +1,11 @@
+.joinUs{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.joinUsTitle {
+    font-weight: 500;
+    size: 22px;
+}

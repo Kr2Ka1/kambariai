@@ -1,0 +1,150 @@
+
+.sectionTwo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.boxes{
+    width: 60%;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    padding: 50px 100px;
+   
+}
+
+
+.box{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: relative;
+}
+
+.box img{
+    width: 300px;
+}
+.textBox{
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.textBox h3{
+    text-align: center;
+    font-family: "Hind Siliguri", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: rgb(109, 106, 106);
+    text-transform: uppercase;
+}
+.textBox p{
+    text-align: center;
+    font-family: "Hind Siliguri", sans-serif;
+    font-size: 17px; 
+    color: rgb(110, 106, 106);
+    font-weight: 500;
+    line-height: 28px;
+}
+.textBox p a{
+    text-decoration: none;
+    color: rgb(146, 36, 36);
+    font-weight: 400;
+}
+
+
+
+.sectionThreeGap{
+    margin-top: 150px;
+}
+.part3 {
+    background-image: url('https://images.squarespace-cdn.com/content/v1/5acd6b71da02bcf0fc160fce/1530037912556-1TP4TRNY5WKOMDIO91Q0/banner-5.jpg');
+    width: 100%;
+}
+.top-text h2{
+    margin-top: 150px;
+}
+ 
+.column-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+ 
+.top-text {
+    margin-bottom: 100px;
+}
+.flex-center {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+ 
+.part3 .imagesWithText-container .imagesWithText .offer {
+    width: 20%;
+ 
+}
+ 
+.part3 .imagesWithText .offer img {
+width: 140.34px;
+height: 46.78px;
+}
+ 
+.part3 .imagesWithText {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 50%;
+}
+.part3 .imagesWithText-container {
+ 
+width: 100%;
+display: flex;
+flex: wrap;
+height: 500px;
+margin: 0;
+}
+ 
+.part3 .top-text h2 {
+color: white;
+font-size: 25px;
+}
+ 
+.part3 .top-text p {
+color: white;
+font-size: 16px;
+}
+ 
+.part3 .imagesWithText-container .imagesWithText .offer h3 {
+    font-size: 15px;
+    color: white;
+}
+
+
+
+@media screen and (max-width: 1280px){
+    .boxes {
+padding: 0 20px;
+display: flex;
+flex-direction: column;
+}
+.textBox p {
+    font-size: 10px;
+
+}
+}
